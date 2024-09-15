@@ -1,0 +1,141 @@
+* { 
+    padding: 0px; 
+    margin: 0px; 
+    border: none; 
+    font-family:"Popins", sans-serif; 
+} 
+    
+   *, 
+   *::before, 
+   *::after { 
+    box-sizing: border-box; 
+} 
+    
+    
+    
+a, a:link, a:visited  { 
+    text-decoration: none; 
+} 
+    
+a:hover  { 
+    text-decoration: none; 
+} 
+    
+    
+    
+aside, nav, footer, header, section, main { 
+    display: block; 
+} 
+    
+h1, h2, h3, h4, h5, h6, p { 
+    font-size: inherit; 
+    font-weight: inherit; 
+} 
+    
+ul, ul li { 
+    list-style: none; 
+} 
+    
+img { 
+    vertical-align: top; 
+} 
+    
+img, svg { 
+    max-width: 100%; 
+    height: auto; 
+} 
+    
+address { 
+    font-style: normal; 
+} 
+    input:focus, input:active, 
+    button:focus, button:active { 
+    outline: none; 
+} 
+    
+button::-moz-focus-inner { 
+    padding: 0; 
+    border: 0; 
+} 
+    
+label { 
+    cursor: pointer; 
+} 
+    
+legend { 
+    display: block; 
+    
+} 
+   /* form */ 
+body{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("./images/dark.png"); 
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh;
+    width: 100vw;
+    height: 80vh;
+    color: #666666;
+    display: flex;
+    
+} 
+.wrapper{
+    width: 927px;
+    height: 547px;
+    background: white;
+    border-radius: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    padding-left:70px;
+} 
+h1{
+    font-size: 20px;
+    font: inherit;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+.input-box{
+    width: 100vw;
+    height: 50px;
+    margin: 30px 0px;
+    position: relative;
+}
+input{
+    height: 100%;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    width: 751px;
+    font-size: 20px;
+    padding: 20px;
+}
+.input-box i{
+    position: relative;
+    top: 6px;
+    right: 50px;
+    font-size: 20px;
+}
+label{
+    font-size: 18px;
+}
+.btn{
+    width: 750px;
+    height: 73px;
+    border-radius: 10px;
+    background-color: black;
+    font: inherit;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 22px;
+}
+.btn:hover{
+    background-color: rgb(32, 32, 34);
+}
